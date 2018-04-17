@@ -293,9 +293,9 @@ function _getArgs(options) {
 }
 
 function _fixFiles(files, options) {
-  if(files.split) {
-    files = files.split(" ");
-  }
+//  if(files.split) {
+//    files = files.split(" ");
+//  }
   if (options.cwd) {
     // for each file get absolute path
     for(var i = 0; i < files.length; i++) {
